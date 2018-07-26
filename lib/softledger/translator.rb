@@ -1,4 +1,4 @@
-class Hola::Translator
+class Softledger::Translator
   def initialize(language = "english")
     @language = language
   end
