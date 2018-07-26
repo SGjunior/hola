@@ -1,14 +1,12 @@
 class Softledger
   require 'http'
 
-  attr_reader: access_token
+  attr_reader :access_token
 
   def initialize(params)
     @username = params[:username]
     @password = params[:password]
     @access_token = authenticate
-
-
   end
 
   def self.hi(language)

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name               = "softledger"
-  s.version            = "0.0.1"
+  s.version            = "0.0.2"
   s.default_executable = "softledger"
   s.license            = "MIT"
 
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.test_files = ["test/test_softledger.rb"]
   s.homepage = %q{http://rubygems.org/gems/softledger}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{0.0.1}
+  s.rubygems_version = %q{0.0.2}
   s.summary = %q{Let's do this! https://github.com/SGjunior/softledger}
 
   if s.respond_to? :specification_version then
